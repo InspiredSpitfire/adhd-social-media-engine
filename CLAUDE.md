@@ -1,6 +1,6 @@
 # ADHD Social Media Engine (Claude Code plugin)
 
-Proof-first content system for one-person social accounts. Product name: **ADHD Social Media Engine** (named by Inspired Spitfire 2026-09-20; briefly `receipts-social`, then `social-media-expert`). The daily-routing feature is called **brain-mode** — her name, do not rename. "Receipts" is the name of the METHOD inside it (Receipts Rule, Proof Locker, `receipts/` workspace, `receipts-editor` agent) and stays. Status: v0.2.0 (2026-09-21; v0.1.0 built 2026-09-20), NOT published. First live run on the owner's own account started 2026-09-20: workspace, audience mining, and a sprint calendar exist; no posts logged yet.
+Proof-first content system for one-person social accounts. Product name: **ADHD Social Media Engine** (named by Inspired Spitfire 2026-09-20; briefly `receipts-social`, then `social-media-expert`). The daily-routing feature is called **brain-mode** — her name, do not rename. "Receipts" is the name of the METHOD inside it (Receipts Rule, Proof Locker, `receipts/` workspace, `receipts-editor` agent) and stays. Status: v0.2.0 (2026-09-21; v0.1.0 built 2026-09-20). First live run on the owner's own account started 2026-09-20; no results claimed yet.
 
 ## Layout
 - `RULES.md` — the shared rulebook every skill reads (workspace, Receipts Rule, evidence labels). Change rules here, not in ten places.
@@ -12,7 +12,7 @@ Proof-first content system for one-person social accounts. Product name: **ADHD 
 - `scripts/check_plugin.py` — component reachability check.
 
 ## Rules
-- Retention structure (`script-writer` renewals, loop ledger; RULES §7 open-loops-vs-bait) is original wording, added 2026-09-21. It was prompted by a third-party carousel the owner shared; she ruled that none of that carousel's images, wording, template, timings, or example lines go into this product. Keep it that way.
+- Retention structure (`script-writer` renewals, loop ledger; RULES §7 open-loops-vs-bait) is original wording, added 2026-09-21. No third-party images, wording, templates, timings, or example lines go into this product. Keep it that way.
 - The product's promise is "nothing invented". Never add hardcoded algorithm claims, benchmark numbers, or platform specs to a skill; skills tell the model to verify at run time.
 - Skill edits are product changes: test with `~/dev/skill-evals` before merging behaviour changes.
 - After any change run: `python3 scripts/check_plugin.py && claude plugin validate .` and the three example commands in README "Verify".
