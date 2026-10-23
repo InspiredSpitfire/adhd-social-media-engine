@@ -1,0 +1,8 @@
+# sample hooks for lint test
+1. I prep five dinners in forty minutes every Sunday night [P-01]
+2. You won't believe what this one trick did to my grocery bill
+3. This is why your meal prep always goes bad by Wednesday [opinion]
+4. Meal prep fails because the plan is too ambitious for a Tuesday [opinion]
+5. I cut my grocery bill by 30% without coupons
+6. Short hook here [opinion]
+7. I prep five dinners in a way that nobody taught me growing up [P-01]

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "adhd-social-media-engine",
+  "owner": {
+    "name": "Inspired Spitfire"
+  },
+  "metadata": {
+    "description": "ADHD Social Media Engine by Inspired Spitfire."
+  },
+  "plugins": [
+    {
+      "name": "adhd-social-media-engine",
+      "source": "./",
+      "description": "ADHD Social Media Engine: a proof-first content system for one-person accounts run by ADHD brains. 11 skills, brain-mode routing, a Proof Locker, a Bank for low days, and scripts that check hooks, calendars, and analytics."
+    }
+  ]
+}
